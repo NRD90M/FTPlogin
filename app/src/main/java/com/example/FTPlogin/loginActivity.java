@@ -186,7 +186,7 @@ public class loginActivity extends AppCompatActivity {
                     }
                     if (match) {
                         Toast.makeText(this, "登录成功", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(this, MainActivity.class);
+                        Intent intent = new Intent(this, logintableActivity.class);
                         startActivity(intent);
                         finish();//销毁此Activity
                     }else {
